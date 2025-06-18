@@ -1,0 +1,12 @@
+.simple-style{
+    background-color: aqua;
+    padding: 5%;
+    font-size: 19px;
+    margin:2%;
+}
+.simple-style-child{
+    background-color:chartreuse;
+    padding: 2%;
+    font-size: 24px;
+    margin:2%;
+}

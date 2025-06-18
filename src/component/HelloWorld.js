@@ -1,8 +1,14 @@
 import React from 'react'
 
-function HelloWorld() {
+function HelloWorld({props,name}) {
+  const hello = 'Hello World';
+  const mystyle = {color:'white', padding:'10px', backgroundColor:'black', marginTop:'15px'}
   return (
-    <div>Hello World</div>
+    <div>
+      <div>{hello}! {name}</div>
+      <div>{props}</div>
+      <div style={mystyle}>This is Inline Style</div>
+    </div>
   )
 }
 
