@@ -7,7 +7,8 @@ function HelloWorld({props,name}) {
     <div>
       <div>{hello}! {name}</div>
       <div>{props}</div>
-      <div style={mystyle}>This is Inline Style</div>
+      <div style={{color:'white', padding:'10px', backgroundColor:'darkblue', marginTop:'15px'}}>This is Inline Style</div>
+      <div style={mystyle}>This is Inline Style v2</div>
     </div>
   )
 }
